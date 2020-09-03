@@ -1,0 +1,97 @@
+[26-Aug-2020 10:59:39 Europe/Istanbul] PHP Notice:  Undefined variable: hb in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 6
+[27-Aug-2020 14:52:04 Europe/Istanbul] PHP Notice:  Undefined index: kulbilgi in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 539
+[27-Aug-2020 14:52:04 Europe/Istanbul] PHP Warning:  gzinflate(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[27-Aug-2020 14:52:04 Europe/Istanbul] PHP Warning:  gzuncompress(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[27-Aug-2020 14:52:04 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:26
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(26): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(542): yonetim->sorgum(Object(PDO), 'select * from y...', 1)
+#2 /home/u9648068/public_html/Yonetim/control.php(107): yonetim->kuladial(Object(PDO))
+#3 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 26
+[27-Aug-2020 14:54:58 Europe/Istanbul] PHP Warning:  unlink(../img/kenburns/pp.jpg): No such file or directory in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 2096
+[28-Aug-2020 15:02:27 Europe/Istanbul] PHP Notice:  Undefined index: kulbilgi in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 539
+[28-Aug-2020 15:02:27 Europe/Istanbul] PHP Warning:  gzinflate(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[28-Aug-2020 15:02:27 Europe/Istanbul] PHP Warning:  gzuncompress(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[28-Aug-2020 15:02:27 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:26
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(26): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(542): yonetim->sorgum(Object(PDO), 'select * from y...', 1)
+#2 /home/u9648068/public_html/Yonetim/control.php(120): yonetim->kuladial(Object(PDO))
+#3 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 26
+[28-Aug-2020 15:06:44 Europe/Istanbul] PHP Notice:  Undefined index: insta in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1515
+[29-Aug-2020 16:25:38 Europe/Istanbul] PHP Notice:  Undefined index: kulbilgi in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 539
+[29-Aug-2020 16:25:39 Europe/Istanbul] PHP Warning:  gzinflate(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[29-Aug-2020 16:25:39 Europe/Istanbul] PHP Warning:  gzuncompress(): data error in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 533
+[29-Aug-2020 16:25:39 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:26
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(26): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(542): yonetim->sorgum(Object(PDO), 'select * from y...', 1)
+#2 /home/u9648068/public_html/Yonetim/control.php(117): yonetim->kuladial(Object(PDO))
+#3 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 26
+[29-Aug-2020 16:36:50 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fpsIcerik' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1087
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1087): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(157): yonetim->oyunAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1087
+[29-Aug-2020 16:36:58 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fpsIcerik' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1087
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1087): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(157): yonetim->oyunAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1087
+[29-Aug-2020 16:37:00 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fpsIcerik' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1087
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1087): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(157): yonetim->oyunAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1087
+[29-Aug-2020 16:37:02 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'fpsIcerik' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1087
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1087): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(157): yonetim->oyunAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1087
+[29-Aug-2020 17:02:24 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobilUygulama' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1318
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1318): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(165): yonetim->mobilAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1318
+[29-Aug-2020 17:02:45 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobilUygulama' in 'field list' in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:1318
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(1318): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/control.php(165): yonetim->mobilAyar(Object(PDO))
+#2 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 1318
+[29-Aug-2020 18:40:53 Europe/Istanbul] PHP Notice:  Undefined index: id in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 2802
+[29-Aug-2020 18:40:53 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:26
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(26): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(2803): yonetim->sorgum(Object(PDO), 'select * from w...', 1)
+#2 /home/u9648068/public_html/Yonetim/control.php(288): yonetim->webProjeSil(Object(PDO))
+#3 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 26
+[29-Aug-2020 18:41:02 Europe/Istanbul] PHP Notice:  Undefined index: id in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 2802
+[29-Aug-2020 18:41:02 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php:26
+Stack trace:
+#0 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(26): PDOStatement->execute()
+#1 /home/u9648068/public_html/Yonetim/assets/fonksiyon.php(2803): yonetim->sorgum(Object(PDO), 'select * from w...', 1)
+#2 /home/u9648068/public_html/Yonetim/control.php(288): yonetim->webProjeSil(Object(PDO))
+#3 {main}
+  thrown in /home/u9648068/public_html/Yonetim/assets/fonksiyon.php on line 26
+[29-Aug-2020 18:43:47 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method yonetim::blog() in /home/u9648068/public_html/Yonetim/control.php:288
+Stack trace:
+#0 {main}
+  thrown in /home/u9648068/public_html/Yonetim/control.php on line 288
+[29-Aug-2020 18:43:49 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method yonetim::blog() in /home/u9648068/public_html/Yonetim/control.php:288
+Stack trace:
+#0 {main}
+  thrown in /home/u9648068/public_html/Yonetim/control.php on line 288
+[29-Aug-2020 18:43:51 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method yonetim::blog() in /home/u9648068/public_html/Yonetim/control.php:288
+Stack trace:
+#0 {main}
+  thrown in /home/u9648068/public_html/Yonetim/control.php on line 288

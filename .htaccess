@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule hakkimizda about.php
+RewriteRule mobil-uygulama mobilUygulama.php
+RewriteRule masaustu-mobil-oyun oyun.php
+RewriteRule neler-yaptik referans.php
+RewriteRule iletisim iletisim.php
+RewriteRule masaustu-web-yazilim masaustuYazilim.php
+RewriteRule webtasarim-yazilim webTasarim.php
+RewriteRule sanal-gerceklik sanalGerceklik.php
+RewriteRule modelleme modelleme.php
+RewriteRule teklif-al teklifAl.php
+RewriteRule ^blog-detay/([0-9a-zA-Z-_/]+)$ blog-details.php?bid=$1 [L,NC]
+RewriteRule blog blog.php
+
+RewriteRule ^(.*)/img/$ /img/
+
